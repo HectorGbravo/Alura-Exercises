@@ -263,6 +263,10 @@ td, th {
     width: 60%;
 }
 
+.imagen-diferenciales:hover {
+    opacity: 0.3;
+}
+
 .video {
     width: 560px;
     margin: 3em auto;
