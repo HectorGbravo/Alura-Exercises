@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-color: #BBBBBB;
     padding: 20px 0;
@@ -59,6 +63,10 @@ nav a:hover {
     border: 2px solid #000000;
     border-radius: 10px;
 
+}
+
+.cabello-barba {
+    width: 92.5%;
 }
 
 .productos li:hover {
@@ -182,7 +190,8 @@ td, th {
 .titulo-principal {
     text-align: center;
     font-size: 2em;
-    margin: 0 0 1em;
+    margin: 0 0 0.5em;
+    padding: 10px;
     clear: left;
 }
 
@@ -205,6 +214,20 @@ td, th {
     ;
 }
 
+.mapas {
+    padding: 1px 0;
+}
+
+.mapas p {
+    text-align: center;
+    padding: 20px;
+}
+
 .imgDiferenciales {
     width: 60%;
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
 }
